@@ -168,7 +168,7 @@ body {
     height: 300px;
    margin-top: 50px;
    margin-left: 15%;
-    %
+    
 }
 .rect2{
     width: 400px;
@@ -179,6 +179,9 @@ body {
 .produit{
     margin-left: 13%;
     margin-top: 100px;
+}
+.flour{
+  margin-left: 65%;
 }
 
 
@@ -262,4 +265,23 @@ footer{
 
 
   
-  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
