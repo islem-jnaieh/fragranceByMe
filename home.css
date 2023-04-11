@@ -166,11 +166,88 @@ body {
 .rect{
     width: 400px;
     height: 300px;
-    padding: 25px;
+   margin-top: 50px;
     display:flex ;
-    flex-direction: row;
-    justify-content:center;
+    align-items: center;
+    justify-content: space-between;
+    
 }
+
+
+
+
+
+
+
+
+
+
+footer{
+   
+    margin-top: 30px;
+   color: #ffffff;
+   background-color: #371D29;
+   }
+   .line1{
+    width:300px ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+   .line2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+   .column1 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 150px; 
+    margin-left: 80px ;
+    margin-top: 60px;
+
+  }
+  .column2 {
+    float: left;
+    width: 60%;
+    padding: 10px;
+    height: 150px; 
+    margin-top: 60px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;}
+    .social{
+      width: 35px;
+      height: 35px;
+     padding: 3px;
+     margin-left: 20px;
+    
+    }
+    .title1{
+      margin-left: 20px;
+      font-family: Georgia;
+      font-size:20px;
+      margin-top: 10px;
+    }
+    .title2{
+      font-family: Georgia;
+      font-size:20px;
+      margin-top: 10px;
+    }
+    .rights{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     margin-bottom: 15px;
+     margin-top: 20px;
+    }
+    .parag{
+      font-family: 	Times New Roman      ;
+      margin-right: 60px;
+    }
 
  
 
