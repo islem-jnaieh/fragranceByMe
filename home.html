@@ -10,58 +10,47 @@
     
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-          <img src="" alt="">
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <img class="logo" src="img/logo.png" alt="">
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Home </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Best Seller</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Inspirations</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Our Story</a>
-                </li>
-                <li class="nav-item">
-                    <img class="panier" src="img/panier.png" alt="panier">
-                </li>
-                <li class="nav-item">
-                   <img class="favori" src="img/favori.png" alt="favori">
-                </li>
-                <li class="nav-item">
-                   <img class="compte" src="img/compte.png" alt="compte">
-                </li>
-               </ul>
-          <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </div>     
-        </nav>
-       </header>
-    
+  <header >
+    <nav  class="navbar">
+      <div class="brand-title"><img src="img\logo.png" alt=""></div>
+      <button class="toggle-button">
+        <span class="bar1"></span>
+        <span class="bar2"></span>
+        <span class="bar3"></span>
+      </button>
+      <div class="navbar-links">
+        <ul>
+         <li><a href="home.html">Home</a></li>
+         <li><a href="#Best Seller">Best Seller</a></li>
+         <li><a href="inspirations.html">Inspirations</a></li>
+         <li><a href="#About Us"> About Us</a></li>
+         <li  class="icon"><img   src="img\panier.png" alt="panier"></li>
+         <li class="icon"><img   src="img\favori.png" alt=" favoris"></li>
+         <li class="icon"><img   src="img\compte.png" alt=" compte"></li>
+        </ul>
+      </div>
+
+    </nav>
+   
+  </header>
+  
        <img class="pub" src="img/pub.png" alt="">
 <button class="Createacc">Create an account</button>
 
 
-
-<div class="rect1">
-  <p class="rect12">Make A Memory Speak! <br>
-    Design Your Own Perfume .</p>
-    <button class="react11">Get your experience now</button>
-  </div>
-
-  <div class="rect2">
-    <p class="rect12"> Unlock your <br> scent-creation <br> potential!</p>
-   <button class="react22">Get your inspirations now</button>
+<div class="container">
+  <div class="rect1">
+    <p class="rect12">Make A Memory Speak! <br>
+      Design Your Own Perfume .</p>
+      <button class="react11">Get your experience now</button>
     </div>
+  
+    <div class="rect2">
+      <p class="rect12"> Unlock your <br> scent-creation <br> potential!</p>
+     <button class="react22">Get your inspirations now</button>
+      </div>
+</div>
+
 
 <img class="produit" src="img/produits.png" alt="">
 <img class="flour" src="img/flour.png" alt="">
@@ -77,47 +66,8 @@
 
 
 
-       <script>const hamburger=document.querySelector(".hamburger");
-        const navMenu=document.querySelector(".nav-menu");
-        
-        hamburger.addEventListener("click",() =>{
-            hamburger.classList.toggle("active");
-            navMenu.classList.toggle("active");
-        })
-        document.querySelectorAll("nav-link").forEach(n =>n.addEventListener("click",()=>{
-            hamburger.classList.remove("active");
-            navMenu.classList.remove("active");
-        }))
-
-        window.onload = function () {
-  Particles.init({
-    selector: ".background"
-  });
-};
-const particles = Particles.init({
-  selector: ".background",
-  color: ["#03dac6", "#ff0266", "#000000"],
-  connectParticles: true,
-  responsive: [
-    {
-      breakpoint: 768,
-      options: {
-        color: ["#faebd7", "#03dac6", "#ff0266"],
-        maxParticles: 43,
-        connectParticles: false
-      }
-    }
-  ]
-});
- 
-        </script> 
+  
 </body>
-</html>
-
-
-
-
-
 <footer >
   <div class="row">
   <div class="column1">
@@ -137,3 +87,10 @@ const particles = Particles.init({
 </div>
 <p class="rights">© 2023  Fragrance By Me. All Right Reserved</p>
 </footer>
+<script src="script.js"></script>
+</html>
+
+
+
+
+
